@@ -7,6 +7,12 @@ function App() {
   const [quizObj, setQuizObj] = React.useState([]);
   const [gameCompleted, setgameCompleted] = React.useState(false);
   const [score, setScore] = React.useState(0);
+
+  function resetGame() {
+    setQuizObj([]);
+    setgameCompleted(false);
+    setScore(0);
+  }
   //created a function to restructor the answer object
   function extendAnswerObj(answer, isCorrect) {
     return {
@@ -38,10 +44,10 @@ function App() {
   //check if game is not on first before getting new data from API
   React.useEffect(() => {
     !gameCompleted &&
-      fetch("https://opentdb.com/api.php?amount=3&category=18&difficulty=easy")
+      fetch("https://opentdb.com/api.php?amount=6&category=18&difficulty=easy")
         .then((res) => res.json())
         .then((data) => setQuizObj(dataRestructor(data.results)));
-  }, []);
+  }, [gameCompleted]);
 
   //update the setQuizObj state when an answer is selected
   function answerSelector(questionid, answerid) {
@@ -118,7 +124,9 @@ function App() {
             Check answer
           </button>
         ) : (
-          <button className="btn--check--answer">Play again!</button>
+          <button onClick={resetGame} className="btn--check--answer">
+            Play again!
+          </button>
         )}
       </div>
     </div>
