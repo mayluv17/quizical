@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mayluv17.github.io/quizical/static/css/main.ea9c526a.css",
-    "main.js": "/mayluv17.github.io/quizical/static/js/main.f4dd8e29.js",
-    "static/js/787.a71d2126.chunk.js": "/mayluv17.github.io/quizical/static/js/787.a71d2126.chunk.js",
-    "index.html": "/mayluv17.github.io/quizical/index.html",
-    "static/media/blobs2.svg": "/mayluv17.github.io/quizical/static/media/blobs2.0fdf2214edd292678ba2.svg",
-    "static/media/blobs.svg": "/mayluv17.github.io/quizical/static/media/blobs.60bbd7b90c40651297f6.svg",
-    "main.ea9c526a.css.map": "/mayluv17.github.io/quizical/static/css/main.ea9c526a.css.map",
-    "main.f4dd8e29.js.map": "/mayluv17.github.io/quizical/static/js/main.f4dd8e29.js.map",
-    "787.a71d2126.chunk.js.map": "/mayluv17.github.io/quizical/static/js/787.a71d2126.chunk.js.map"
+    "main.css": "/quizical/static/css/main.85a2ecaf.css",
+    "main.js": "/quizical/static/js/main.977e5188.js",
+    "static/js/787.a71d2126.chunk.js": "/quizical/static/js/787.a71d2126.chunk.js",
+    "index.html": "/quizical/index.html",
+    "static/media/blobs2.svg": "/quizical/static/media/blobs2.0fdf2214edd292678ba2.svg",
+    "static/media/blobs.svg": "/quizical/static/media/blobs.60bbd7b90c40651297f6.svg",
+    "main.85a2ecaf.css.map": "/quizical/static/css/main.85a2ecaf.css.map",
+    "main.977e5188.js.map": "/quizical/static/js/main.977e5188.js.map",
+    "787.a71d2126.chunk.js.map": "/quizical/static/js/787.a71d2126.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea9c526a.css",
-    "static/js/main.f4dd8e29.js"
+    "static/css/main.85a2ecaf.css",
+    "static/js/main.977e5188.js"
   ]
 }
